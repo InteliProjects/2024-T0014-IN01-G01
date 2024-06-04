@@ -1,0 +1,724 @@
+{
+  "cutsceneInicial": {
+    "cutsceneinicial_dialog": {
+      "text": "Onde estou?? Eu virei um coelho?",
+      "speaker": null,
+      "cardImage": "coelho_head_shock",
+      "fontSize": 16
+    }
+  },
+  "coffeShop": {
+    "first_dialog": {
+      "text": "Ei, eu nunca te vi por aqui antes!",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_2",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_2": {
+      "text": "Caramba, é um novato? Seja bem vind@ à Meta!",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_3",
+      "cardImage": "llama_head_happy",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_3": {
+      "text": "Eu sou a Llama, sua nova assistente virtual!",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_4",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_4": {
+      "text": "Eu vou te ajudar a se ambientar\naqui e tentar responder todas as dúvidas\nque tiver",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_5",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_5": {
+      "text": "Já que você acabou de chegar, e\neu fui com a sua cara, eu vou\nte ajudar a entender um pouco de\num...",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_6",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_6": {
+      "text": "...dos processos mais importantes\npara um trabalhador da Meta,\na jornada de contratação de\num fornecedor.",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_7",
+      "cardImage": "llama_head_happy",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_7": {
+      "text": "A sala onde estamos é a nossa\ncafeteria, o habitat natural do desenvolvedor.",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_8",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_8": {
+      "text": "Sinta-se livre para passear um pouco, conhecer\nmelhor o prédio e alguns de seus\ncolegas de trabalho.",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_9",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_9": {
+      "text": " Ah! Eu não te expliquei os controles, né?",
+      "speaker": "Llama",
+      "next": "dialog_llama_user_speech_10",
+      "cardImage": "llama_head_whoops",
+      "fontSize": 16
+    },
+    "dialog_llama_user_speech_10": {
+      "text": "Clique no botão que parece um controle\nno canto superior direito da tela para\naprender a se movimentar e a interagir\ncom o cenário. Let's Bora!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "dialog_NPC1": {
+      "text": "Eu tinha combinado de jogar ping-pong com o\npeixe, mas ele me deu um bolo então eu tô\nlendo aqui",
+      "speaker": "Capi",
+      "fontSize": 16
+    },
+    "dialog_NPC2": {
+      "text": "Então você que é o novato! Se prepara pra\ntrabalhar por quê a gente tá com um\nproblemão... A Llama vai te contar tudo!",
+      "speaker": "Nicole",
+      "fontSize": 16
+    },
+    "dialog_NPC_cachorro": {
+      "text": "Eai! Quer aproveitar o\nintervalo e dar uma passeada por aí",
+      "speaker": "Pisco",
+      "fontSize": 16
+    }
+  },
+  "theOffice": {
+    "blockPC": {
+      "text": "O sistema de sourcing está bloqueado! \nVamos seguir para a próxima etapa!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "blockDoor": {
+      "text": "Tem certeza que não esqueceu de nada? \nA porta está trancada!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_whoops",
+      "fontSize": 16
+    },
+    "theOfficeExplanationInit": {
+      "text": "Seja bem-vindo ao escritório!",
+      "speaker": "Llama",
+      "next": "theOfficeExplanationProccess",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "theOfficeExplanationProccess": {
+      "text": "Aqui, você irá realizar a primeira \netapa do processo, a escolha de um fornecedor.",
+      "speaker": "Llama",
+      "next": "explicacaoHistoria1",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "explicacaoHistoria1": {
+      "text": "Você deve estar se perguntando: “por quê\nessa Llama charmosa quer tanto me explicar\nsobre como se contrata um fornecedor?”",
+      "speaker": "Llama",
+      "next": "explicacaoHistoria2",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "explicacaoHistoria2": {
+      "text": "É bem simples na verdade, o pior\npesadelo de um desenvolvedor se tornou real\ne você é a nossa última esperança!",
+      "speaker": "Llama",
+      "next": "explicacaoHistoria3",
+      "cardImage": "llama_head_sad",
+      "fontSize": 16
+    },
+    "explicacaoHistoria3": {
+      "text": "Absolutamente todas as máquinas de café do\nprédio estão com defeito, e cabe a\nvocê contratar alguém que possa nos ajudar.",
+      "speaker": "Llama",
+      "next": "explicacaoHistoria4",
+      "cardImage": "llama_head_whoops",
+      "fontSize": 16
+    },
+    "explicacaoHistoria4": {
+      "text": "Agora que você entende a gravidade do\nproblema, é hora de trabalhar no Sourcing",
+      "speaker": "Llama",
+      "next": "stepImportant",
+      "cardImage": "llama_head_sad",
+      "fontSize": 16
+    },
+    "stepImportant": {
+      "text": "Essa etapa é de crucial importância para\na realização de nossas Metas.",
+      "speaker": "Llama",
+      "next": "stepExplanation",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "stepExplanation": {
+      "text": "Precisamos escolher um fornecedor\ndiverso, confiável e seguro.",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+
+    "explainingComputer": {
+      "title": "Dialogo que mostra a direção ao jogador",
+      "text": "Para dar início na escolha do fornecedor,\nclique no computador e siga as instruções.\nAssim que estiver pronto eu volto!",
+      "speaker": "Llama",
+      "next": "explainingComputer2",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "explainingComputer2": {
+      "title": "Dialogo que libera o jogador para andar",
+      "text": "Pode explorar a vontade!\nEstou por aqui!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+
+    },
+    "dialog_NPC3": {
+      "text": "Tem muito trabalho por aqui hoje,\num café seria bom",
+      "speaker": "Koalho",
+      "fontSize": 16
+    },
+    "dialog_NPC_arara": {
+      "text": "Desculpa não posso falar agora,\ntenho que terminar isso logo e voltar\npro Rio",
+      "speaker": "Gerson da Silva",
+      "fontSize": 16
+    },
+    "dialog_NPC_cabra": {
+      "text": "Meu reinado por um cafézinho...",
+      "speaker": "Miguel Jordão",
+      "fontSize": 16
+    },
+    "dialog_NPC_coruja": {
+      "text": "Tá todo mundo perguntando se eu consigo\nconsertar a cafeteira, eu posso tentar\nmas eu não faço mágica",
+      "speaker": "Eduardo",
+      "fontSize": 16
+    }
+  },
+  "sourcing": {
+    "explanationSourcing": {
+      "text": "Aqui você tem acesso a todos os serviços\nprestados por nossos fornecedores",
+      "speaker": "Llama",
+      "next": "explanationSourcing2",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "explanationSourcing2": {
+      "text": "Na lista à direita há alguns dos\nfornecedores, e abaixo uma breve descrição\nsobre cada um.",
+      "speaker": "Llama",
+      "next": "explanationSourcing3",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "explanationSourcing3": {
+      "text": "Agora está na hora de você escolher um bom\nfornecedor para atender nossa demanda.\nLembre-se de avaliar os fornecedores pelas\ncaracterísticas indicadas nos seus perfis.",
+      "speaker": "Llama",
+      "next": "explanationSourcing4",
+      "cardImage": "llama_head_happy",
+      "fontSize": 16
+    },
+    
+    "explanationSourcing4": {
+      "text": "Agora, que tal tentar escolher? Qualquer\najuda que precisar, pode me chamar!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    }
+  },
+  "supplierDetails": {
+    "dialog_supplier_details": {
+      "text": "Como uma empresa diversa, a Meta tem o dever\nde escolher e proteger nossos fornecedores\nde forma que a relação entre nós gere bons\nfrutos.",
+      "speaker": "Llama",
+      "next": "dialog_supplier_details_2",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "dialog_supplier_details_2": {
+      "text": "As características do fornecedor são\ncruciais para a firmação de um contrato.",
+      "speaker": "Llama",
+      "next": "dialog_supplier_details_3",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "dialog_supplier_details_3": {
+      "text": "Características como diversidade, saúde\nfinanceira, reputação e risco devem ser\nanalisadas para tomar uma decisão.",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "intercom_approved": {
+      "text": "Hmmm… Esse não me parece um bom fornecedor.\nApesar de ter uma boa reputação, é pouco \nestável financeiramente, e nâo aparenta ser\nmuito transparente. Que tal darmos uma\nolhada no outro fornecedor?",
+      "speaker": "Llama",
+      "cardImage": "llama_head_sad",
+      "fontSize": 16
+    },
+    "quantum_approved": {
+      "text": "Hmmm… Esse não me parece um bom fornecedor.\nEle aparenta ser medíocre em nossos\ncritérios, e nós buscamos sempre por um\nserviço de maior qualidade. Que tal darmos\numa olhada no outro fornecedor?",
+      "speaker": "Llama",
+      "cardImage": "llama_head_sad",
+      "fontSize": 16
+    },
+    "stargate_approved": {
+      "text": "Hmmm… Esse não me parece um bom fornecedor.\nO fornecedor possui boa estabilidade financeira, \nmas ao mesmo tempo está presente em diversas\npolêmicas, o que pode trazer maus olhos para\na Meta.",
+      "speaker": "Llama",
+      "cardImage": "llama_head_sad",
+      "fontSize": 16,
+      "next": "stargate_approved_2"
+    },
+    "stargate_approved_2": {
+      "text": "Que tal darmos uma olhada no outro\nfornecedor?",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "nexus_approved": {
+      "text": "Meus parabéns! Esse parece um ótimo\nfornecedor, você aprende muito rápido!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_happy",
+      "next": "negociacao1",
+      "fontSize": 16
+    },
+    "negociacao1": {
+      "text": "Após escolher o fornecedor, devemos negociar\nos termos do serviço. Uma etapa\nimportantíssima que não deve passar em\nbranco",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "negociacao2",
+      "fontSize": 16
+    },
+    "negociacao2": {
+      "text": "Para realizarmos um bom contrato, precisamos\nter em mente que o foco aqui é o bem estar e\na boa relação nossa com o fornecedor.",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "next": "negociacao3",
+      "fontSize": 16
+    },
+    "negociacao3": {
+      "text": "Isso colocará em cheque todo o\nrelacionamento que teremos. Ou seja, é algo\nBEM importante",
+      "speaker": "Llama",
+      "cardImage": "llama_head_whoops",
+      "next": "negociacao4",
+      "fontSize": 16
+    },  
+    "negociacao4": {
+      "text": "Ao escrever um contrato ambas as partes\ndevem concordar com os termos ali escritos.\nTalvez possa parecer que a negociação está\nfavorecendo um dos lados...",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "negociacao5",
+      "fontSize": 16
+    },
+    "negociacao5": {
+      "text": "...e para que isso não ocorra\né crucial dar atenção ao processo\nde negociação. Nele todas as\npartes envolvidas podem discutir\nas cláusulas.",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "negociacao6",
+      "fontSize": 16
+    },
+    "negociacao6": {
+      "text": "Com tudo isso em mente, \nbalanceie as demandas da negociação \nde forma que fiquem iguais",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "next": "nexus_risk_text",
+      "fontSize": 16
+    },
+    "nexus_risk_text": {
+      "text": "Porém, antes de iniciarmos a negociação, \né essencial que nosso time de risco \nfaça uma avaliação minuciosa do negócio.",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "nexus_risk_text2",
+      "fontSize": 16
+    },
+    "nexus_risk_text2": {
+      "text": "Para saber mais sobre como o time de risco \natua, clique no botão que aparece no canto \ndireito superior da tela.",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    }
+  },
+  "meetingRoom": {
+    "FalaInicial": {
+      "text": "Espero que você esteja animado, pois a Jornada do\nFornecedor está chegando em sua última etapa: o\nFeedback!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_happy",
+      "next": "feedback2",
+      "fontSize": 16
+    },
+    "feedback2": {
+      "text": "A performance de um Zooplier é medida de duas\nmaneiras: os KPIs e o SLA.",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "feedback3",
+      "fontSize": 16
+    },
+    "feedback3": {
+      "text": "Os KPI's funcionam como uma forma de lista de\npontos chave que dão uma ideia sobre a\nperformance do fornecedor",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "next": "feedback4",
+      "fontSize": 16
+    },
+    "feedback4": {
+      "text": "já o SLA é um acordo formal que define o nível\nesperado do serviço prestado",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "feedback6",
+      "fontSize": 16
+    },
+    "feedback6": {
+      "text": "Lembre-se que, para a Meta, o grande desafio ao\nlidar com um fornecedor é comunicar o feedback de\nforma que reconheça seus pontos fortes...",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "next": "feedback7",
+      "fontSize": 16
+    },
+    "feedback7": {
+      "text": "...e aborde as áreas que necessitam de melhoria e\nmantenha uma relação positiva para futuras\ncolaborações, caso julgue necessário",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "feedback8",
+      "fontSize": 16
+    },
+    "feedback8": {
+      "text": "Seus colegas de trabalho já escreveram alguns\nfeedbacks. Para acessá-los, você deve clicar no\nbotão de arquivos à direita e ler com atenção,\nlembre de compará-los com os KPI e SLA que\nmencionei.",
+      "speaker": "Llama",
+      "cardImage": "llama_head_happy",
+      "next": "feedback9",
+      "fontSize": 16
+    },
+    "feedback9": {
+      "text": "Agora respire fundo e, quando estiver pronto,\ninicie o feedback!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "Pergunta1": {
+      "text": "Fale sobre: o Tempo de resposta e \ndisponibilidade do serviço",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "options": [
+        {
+          "text": "Critério foi cumprido, porém poderia melhorar...",
+          "value": true
+        },
+        {
+          "text": "Poderiam ter feito um serviço melhor",
+          "value": false
+        },
+        {
+          "text":"Serviço insuficiente.",
+          "value": false
+        }
+      ],
+      "fontSize": 16
+    },
+    "Pergunta2": {
+      "text": "Fale sobre: Eficiência do serviço: tempo \nlevado no conserto e garantia disponibilizada",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "options": [
+        {
+          "text": "Não há reclamações!",
+          "value": true
+        },
+        {
+          "text": "Trabalho bem feito, porém garantia poderia melhorar",
+          "value": false
+        },
+        {
+          "text": "Serviços de garantia DEVEM ser providenciados",
+          "value": false
+        }        
+      ],
+      "fontSize": 16
+    },
+    "Pergunta3": {
+      "text": "Fale sobre: Comunicação com o cliente",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "options": [
+        {
+          "text": "Sugestão de melhora",
+          "value": true
+        },
+        {
+          "text": "Comunicação insatisfatória, não estão no caminho certo",
+          "value": false
+        },
+        {
+          "text": "Uma empresa sem comunicação não tem futuro",
+          "value": false
+        }    
+      ],
+      "fontSize": 16
+    },
+    "Pergunta4": {
+      "text": "Fale sobre: Taxa de satisfação",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "options": [
+        {
+          "text": "Critério cumprido com excelência",
+          "value": true
+        },
+        {
+          "text": "Nada além do esperado",
+          "value": false
+        },
+        {
+          "text": "Fizeram o mínimo",
+          "value": false
+        }           
+      ],
+      "fontSize": 16
+    },
+    "respostaAcerto1": {
+      "text": "Segundo as avaliações de meus\ncolegas de trabalho, vocês se mostraram\ndisponíveis e de prontidão para fazer o\ntrabalho rapidamente, porém pecaram\num pouco na questão da disponibilidade\npara emergências",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_happy",
+      "fontSize": 16
+    },
+    "respostaErro1.1": {
+      "text": "De acordo com o que meus colegas\nescreveram, vocês os deixaram esperando\npor 4 horas até consertar a máquina de café,\nmesmo tendo cumprido com o que\nfoi pedido, poderia ter sido melhor",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_think",
+      "fontSize": 16
+    },
+    "respostaErro1.2": {
+      "text": "Mesmo conseguindo consertar todas as máquinas\nde café, vocês claramente não se importam em\nresolver emergências. Isso é inaceitável e\npra mim fica evidente que ética, moral e\npontualidade não estão integrados em sua empresa",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_sad",
+      "fontSize": 16
+    },
+    "respostaAcerto2": {
+      "text": "Após coletar o feedback de alguns colegas,\nreparei que não há nenhuma reclamação quanto\nao tempo levado no conserto, porém, o\nmodo como o seu sistema de garantia\nfunciona não foi bem explicitado. Sugiro melhorar\nesse aspecto",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_happy",
+      "fontSize": 16
+    },
+    "respostaErro2.1": {
+      "text": "Meus parabéns! Após coletar o feedback de alguns\ncolegas vi que não há reclamação alguma sobre o\ntempo levado no conserto da cafeteira\ne na garantia",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_talk",
+      "fontSize": 16
+    },
+    "respostaErro2.2": {
+      "text": "É inviável que uma empresa do porte de vocês\nnão consiga oferecer serviços de garantia ao\ncliente! Vocês podem até ser rápidos no\nconserto, porém o atendimento ao cliente é\ndeplorável, algo que não é esperado de uma\nempresa contratada pela Meta.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_shock",
+      "fontSize": 16
+    },
+    "respostaAcerto3": {
+      "text": "Pude reparar que houveram problemas quanto à\ncomunicação com o cliente: alguns ficaram\nincertos quanto aos serviços de garantia. Como\nsua empresa parece ter um futuro promissor,\ntenho certeza que melhorar tais aspectos deve\nser uma prioridade.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_talk",
+      "fontSize": 16
+    },
+    "respostaErro3.1": {
+      "text": "A comunicação com o cliente é muito importante\npara o sucesso de uma empresa, portanto não\nsei se posso dizer se estão no caminho certo.\nTivemos casos em que não sabíamos como ativar\na garantia, certifique-se que isso mude daqui\npara frente.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_think",
+      "fontSize": 16
+    },
+    "respostaErro3.2": {
+      "text": "Eu lamento dizer que a experiência de ter\nvocês como fornecedores poderia ter sido\nmuito melhor, muitas vezes nos víamos perdidos\npor não saber de nada sobre a completude do\ntrabalho feito. Sugiro fortemente que demitam\nseu departamento de comunicação",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_sad",
+      "fontSize": 16
+    },
+    "respostaAcerto4": {
+      "text": "Eu gostaria de parabenizar vocês! Mesmo em\ncaso de críticas ou comentários negativos,\nnão houve nenhuma reclamação quanto a qualidade\ne eficiência do serviço prestado",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_happy",
+      "fontSize": 16
+    },
+    "respostaErro4.1": {
+      "text": "Assim como se espera de um fornecedor contratado\npela Meta, o serviço de vocês está dentro do\ncombinado. Muito obrigado pela ajuda e eu\nespero que possa chamar vocês se houver qualquer\ninconveniente.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_talk",
+      "fontSize": 16
+    },
+    "respostaErro4.2": {
+      "text": "Realmente, eu não posso reclamar quanto ao\nconserto das máquinas em si, porém vocês têm\nmuito a rever quando se trata de qualquer\noutro aspecto, se quiserem ser alguém no mundo,\npelo seu bem façam melhor.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head",
+      "fontSize": 16
+    },
+    "respostaErro": {
+      "text": "Talvez você não devesse falar dessa forma com os\nfornecedores. Um feedback construtivo é o melhor\ncaminho para a construção de uma boa relação!\nVamos tentar de novo?",
+      "speaker": "Llama",
+      "cardImage": "llama_head_sad",
+      "fontSize": 16
+    },
+    "dialogFinalização": {
+      "text": "Meus parabéns! Você conseguiu selecionar um\nfornecedor que se alinha com as ideias da Meta\ncom muita proficiência, vemos isso pelo\nótimo serviço que foi prestado.",
+      "speaker": "Llama",
+      "cardImage": "llama_head_happy",
+      "fontSize": 16,
+      "next": "dialogFinalização2"
+    },
+    "dialogFinalização2": {
+      "text": "Além disso, as negociações não beneficiaram\ninjustamente nenhum lado, isso é muito\nimportante para nós. Vale notar também que o\nprocesso de onboarding e feedback foram\nmuito bem redigidos",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "fontSize": 16,
+      "next": "dialogFinalização3"
+    },
+    "dialogFinalização3": {
+      "text": "Percebi que você tomou cuidado para usar a\ncomunicação não violenta, garantindo que o\nfornecedor possa trabalhar conosco novamente\nno futuro.",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16,
+      "next": "dialogFinalização4"
+    },
+    "dialogFinalização4": {
+      "text": "Espero que, depois de tudo isso, tenha\naprendido algo e, finalmente, obrigado por\njogar",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "fontSize": 16
+    }
+  },
+  "hallPrincipal": {
+    "initial_dialog": {
+      "text": "Agora você precisa conversar\ncom o Sr. Khali e levar\nele para conhecer o prédio da Meta. Cuidado para\nnão se perder!",
+      "speaker": null,
+      "cardImage": "llama_head",
+      "fontSize": 16
+    },
+    "hallPrincipal_dialog": {
+      "text": "Olá Sr. Khali! Seja bem-vindo\na Meta! Estamos muito felizes\nde tê-lo conosco. Espero que\ngoste do nosso Onboarding.\nVamos começar?",
+      "speaker": null,
+      "cardImage": "coelho_head_happy",
+      "next": "hallPrincipal_dialog2",
+      "fontSize": 16
+    },
+    "hallPrincipal_dialog2": {
+      "text": "Muito obrigado, camarada, o prazer é todo meu!\nVamos começar!",
+      "speaker": null,
+      "cardImage": "elefante_head_happy",
+      "fontSize": 16
+    },
+    "blockHallPrincipal": {
+      "text": "O Sr. Khali está pronto para iniciar o Onboarding.\nQue tal iniciarmos? A porta está à direita.",
+      "speaker": "Llama",
+      "cardImage": "llama_head_happy",
+      "fontSize": 16
+    },
+    "waitingMrKhali": {
+      "text": "Que tal conversar com o Sr. Khali? Ele está\nesperando por você!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    },
+    "dialog_NPC4": {
+      "text": "Eu pessoalmente não dou muita falta do café,\nele me esquenta demais! A única cafeteria\nque acerta o ponto do café fica lá no\nCentro da Cidade",
+      "speaker": "Gary",
+      "fontSize": 16
+  },
+  "dialog_NPC_crocodilo": {
+    "text": "Hmmmphm...... Hmphmm... Mpphhhhh....",
+    "speaker": "Waylon",
+    "fontSize": 16,
+    "next": "dialog_NPC_crocodilo2"
+  },
+  "dialog_NPC_crocodilo2": {
+    "text": "(Isso acontece todo dia.)",
+    "speaker": "Waylon",
+    "fontSize": 16
+  },
+  "dialog_NPC_ovelha": {
+    "text": "O Sr Khali é muito gente boa, não esqueça de\nmostrar todas as melhores partes\nda empresa para ele",
+    "speaker": "Zoe",
+    "fontSize": 16
+  }
+},
+  "onboarding": {
+    "falaInicial": { 
+      "text": "Agora é hora de mostrar ao nosso\nquerido Sr. Khali o prédio da Meta!\nLembre de passar pela cafeteria/escritório, o\nlindo jardim e, obviamente, a sala de\nreuniões",
+      "speaker": "Llama",
+      "cardImage": "llama_head_happy",
+      "fontSize": 16
+    },
+    "falaCafeteria1": {
+      "text": "Aqui é o local que mais\nsofreu mudanças nos últimos dias",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_talk",
+      "fontSize": 16,
+      "next": "falaCafeteria2"
+    },
+    "falaCafeteria2": {
+      "text": "A falta de café está\ndeixando todos os trabalhadores\nloucos!",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_shock",
+      "fontSize": 16,
+      "next": "falaCafeteria3"
+    },
+    "falaCafeteria3": {
+      "text": "Esse local era onde\nnós descansávamos durante o\nnosso intervalo.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head",
+      "fontSize": 16
+    },
+    "falaEscritorio1": {
+      "text": "Esse é o escritório\nonde passamos grande parte do\nnosso dia.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_talk",
+      "fontSize": 16,
+      "next": "falaEscritorio2"
+    },
+    "falaEscritorio2": {
+      "text": "É aqui desenvolvemos nossas\nideias e as aplicamos.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_happy",
+      "fontSize": 16
+    },
+    "falaJardim1": {
+      "text": "Aqui é o jardim, onde relaxamos durante o nosso\nintervalo.",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_happy",
+      "next": "falaJardim2",
+      "fontSize": 16
+    },
+    "falaJardim2": {
+      "text": "A grande maioria prefere\nficar na cafeteria, mas eu gosto daqui",
+      "speaker": "Coelho",
+      "cardImage": "coelho_head_talk",
+      "fontSize": 16
+    },
+    "portaLocked": {
+      "text": "Talvez você devesse mostrar outra sala!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_whoops",
+      "fontSize": 16
+    },
+    "dialog_NPC5": {
+      "text": "Estou perdido aqui há horas! Seria tão bom se \nhouvesse um botão que mostrasse um mapa daqui para mim...",
+      "speaker": "Santos",
+      "fontSize": 16
+    }
+  },
+  "negotiation": {
+    "wonNegotiation": {
+      "text": "Meus parabéns! \nUma negociação bem sucedida é a chave para \no bom desenvolvimento da empresa e de seus \nfornecedores",
+      "speaker": "Llama",
+      "cardImage": "llama_head_happy",
+      "next": "wonNegotiation2",
+      "fontSize": 16
+    },
+    "wonNegotiation2": {
+      "text": "Ahaa! Parece que o Sr. Khali \nnovo fornecedor da Meta já chegou. \nVamos dar as boas vindas a ele e apresentar \nnossa empresa e cultura! O que acha??",
+      "speaker": "Llama",
+      "cardImage": "llama_head",
+      "next": "wonNegotiation3",
+      "fontSize": 16
+    },
+    "wonNegotiation3": {
+      "text": "Siga para a porta a direita para \ndar as boas vindas ao Sr. Khali! \nEle está esperando por você!",
+      "speaker": "Llama",
+      "cardImage": "llama_head_wink",
+      "fontSize": 16
+    }
+  }
+}

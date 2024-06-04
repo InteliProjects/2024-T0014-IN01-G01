@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .panel {
+      /* background-color: #000; */
+      color: #fff;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      width: 100vw;
+    }
+
+    .button-panel {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 400px;
+    }
+
+    .button-panel button {
+      height: 133px;
+      width: 455px;
+      background: url('assets/ui/lets_bora_button.png');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border: none;
+      color: purple;
+      cursor: pointer;
+      transition: .5s;
+    }
+
+    .button-panel button:hover {
+      height: 160px;
+      width: 555px;
+      transition: .5s;
+    }
+  </style>
+</head>
+<body>
+  <div class="panel">
+    <div class="button-panel">
+      <button class="btnMainMenu" id="btnStartGame"></button>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,104 @@
+
+.item1 { 
+    grid-area: menu;
+    border-radius: 10px; /* Added border-radius to item2 */
+    padding: 100px;  
+  }
+  
+  .item2 { 
+    grid-area: main;
+    padding: 100px;  
+    border-radius: 10px; /* Added border-radius to item3 */
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-areas: 'menu main'; /* Removed 'main' from the grid-template-areas */
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .grid-container > div {
+    background-color: rgba(169, 169, 169, 0.8); /* Changed background color to gray */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+
+  .article-body {
+    padding: 24px;
+  }
+
+  /* Generic layout (demo looks) */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 48px 0;
+    font-family: "Figtree", sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    background: linear-gradient(45deg, #919291, #fff); /* Gradient background for the body */
+    min-height: 100vh;
+  }
+
+  .articles {
+    display: grid;
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 24px;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 24px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .article-body p {
+      display: none;
+    }
+  }
+
+  @container card (min-width: 380px) {
+    .article-wrapper {
+      display: grid;
+      grid-template-columns: 100%;
+      gap: 16px;
+    }
+    .article-body {
+      padding-left: 0;
+    }
+    figure {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    figure img {
+      height: 100%;
+      aspect-ratio: 1;
+      object-fit: cover;
+    }
+  }
+
+  .sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .logo {
+    border-radius: 50%;
+  }
